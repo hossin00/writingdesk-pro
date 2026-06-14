@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="theme-color" content="#64748b"/>
+  <link rel="manifest" href="/writingdesk-pro/manifest.json"/>
+  <link rel="icon" href="/writingdesk-pro/favicon.ico"/>
+  <title>WritingDesk Pro</title>
+  <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Inter',sans-serif;background:#080810}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"/>
+  <script type="module" crossorigin src="/writingdesk-pro/assets/index-C1ag4ogG.js"></script>
+  <link rel="stylesheet" crossorigin href="/writingdesk-pro/assets/index-B6GwZCfU.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/writingdesk-pro/sw.js', { scope: '/writingdesk-pro/' });
+      });
+    }
+  </script>
+</body>
+</html>
